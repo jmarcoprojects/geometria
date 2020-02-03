@@ -19,5 +19,8 @@ public abstract class FiguraGeometrica_JAM {
 	public void setTipoFigura(String tipoFigura) {
 		this.tipoFigura = tipoFigura;
 	}
+	public double semiPerimetro() {
+		return this.perimetro() / 2;
+	}
 
 }
